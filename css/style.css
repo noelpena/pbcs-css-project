@@ -1,0 +1,184 @@
+html{
+	background-color: #c2c5d6;
+}
+
+body{
+	max-width: 960px;
+	margin: 2em auto;
+	background-color: #fff;
+	-webkit-box-shadow: 3px 1px 3px rgba(0,0,0,.8);
+	box-shadow: 3px 1px 3px rgba(0,0,0,.8);
+	font-family: Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+a{color: #9458BC; text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+h1{color: #602E8B;}
+
+h2{
+	font-family: serif;
+	color: #C2C6E7;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+hr{border-color: #C2C6E7;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+header p, header nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0px 0px;
+}
+
+header nav ul li{
+	list-style-type: none;	
+}
+
+.main{	
+	padding: 15px 35px 0px;
+	width: calc(100% - 70px);
+}
+
+.main article .left{width: 70%;}
+.main article .right{width: 30%;}
+
+.main article img{
+	margin-left: 15px;
+	width: 100%;
+}
+
+.main article h4{
+	margin-bottom: 0;
+	text-indent: 10px;
+}
+
+footer{
+	background-color: #602e8b;
+	color: #fff;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+/* === FORMS === */
+form label{
+	display: block;
+	margin: 10px 0px;
+}
+
+form label p{
+	display: inline;
+}
+
+/* === HOMEPAGE === */
+.feedback{
+	padding: 0px 35px;
+}
+
+.feedback h5,
+.news-wrap .main h5{
+	font-size: 1.3em;
+	font-family: serif;
+	color: #9C6FBC;
+}
+
+blockquote::before{
+	content: open-quote;
+	position: relative;
+	right:2px;
+	opacity: .7;
+}
+blockquote:after{
+	content:close-quote;
+}
+
+/* === ROOM SERVICE PAGE === */
+.roomservice-wrap .main section{
+	width: calc(70% - 35px);
+	margin-bottom: 40px;
+}
+.roomservice-wrap aside{
+	width: calc(30% - 35px);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 45px;
+	padding-top: 45px;
+}
+
+aside img{
+	width: 100%;
+}
+
+.roomservice-wrap #room-number,
+.roomservice-wrap #phone,
+.roomservice-wrap #dtime{
+	width: 50px;
+}
+
+
+/* === CONTACT PAGE === */
+.contact-wrap .main{
+	width: 50%;
+}
+
+/* === RESERVATION PAGE === */
+.reservation-wrap .main{
+	width: 50%;
+}
+
+/* === SPECIALS PAGE === */
+.specials-wrap h4{
+	font-size: 1.15em;
+}
+
+.main dl dt{
+	padding: 10px 0px;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.main dd{
+	padding: 10px 0px 0px;
+	margin: 0px;
+}
+
+.specials-wrap article, 
+.meetings-wrap article{
+	border-bottom: 1px solid #c3c3c3;
+}
+
+/* === MEETINGS PAGE === */
+.meetings-wrap article{
+	width: 100%;
+	float: left;
+}
+
+.meetings-list dl{
+	float: left;
+	width: 70%;
+}
+
+.meetings-list aside{
+	float: right;
+	width: 30%;
+}
+
+.meetings-list article aside p img{
+	width: 100%;
+}
+
+.meetings-list article{
+	clear: both;
+}
